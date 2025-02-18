@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h4 a {
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h4 a:hover {
+    background-color: #218838;
+}
+
+#Book {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+#Book th, #Book td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#Book th {
+    background-color: #007bff;
+    color: white;
+}
+
+#Book tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Book tr:hover {
+    background-color: #ddd;
+}
+
+#Book a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#Book a[href*='DeleteBookServlet'] {
+    background-color: #dc3545;
+    color: white;
+}
+
+#Book a[href*='DeleteBookServlet']:hover {
+    background-color: #c82333;
+}
+
+#Book a[href*='updateBook.jsp'] {
+    background-color: #ffc107;
+    color: black;
+}
+
+#Book a[href*='updateBook.jsp']:hover {
+    background-color: #e0a800;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
